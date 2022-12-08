@@ -4,3 +4,5 @@ vendor
 coverage.clover
 .phpunit.result.cache
 .idea
+*/**/.DS_Store
+.DS_Store
