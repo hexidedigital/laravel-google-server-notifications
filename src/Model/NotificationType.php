@@ -10,7 +10,7 @@ class NotificationType extends Enum
         1 => 'subscription_recovered', // subscription was recovered from account hold.
         2 => 'subscription_renewed', // - An active subscription was renewed.
         3 => 'subscription_canceled', // - A subscription was either voluntarily or involuntarily cancelled. For voluntary cancellation, sent when the user cancels.
-        4 => 'subscrip￼￼tion_purchased', // - A new subscription was purchased.
+        4 => 'subscription_purchased', // - A new subscription was purchased.
         5 => 'subscription_on_hold', // - A subscription has entered account hold (if enabled).
         6 => 'subscription_in_grace_period', // - A subscription has entered grace period (if enabled).
         7 => 'subscription_restarted', // - User has reactivated their subscription from Play > Account > Subscriptions (requires opt-in for subscription restoration)
